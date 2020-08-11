@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Vijay Joseph",
+    "age": 45,
+    "gender": "male",
+    "src": "vijay"
+  },
+  {
+    "name": "Rajini Khan",
+    "age": 75,
+    "gender": "male",
+    "src": "rajini"
+  },
+  {
+    "name": "Nayanthara",
+    "age": 32,
+    "gender": "female",
+    "src": "nayanthara"
+  },
+  {
+    "name": "Nivedha Thomas",
+    "age": 32,
+    "gender": "female",
+    "src": "nivedha"
+  },
+  {
+    "name": "Nani",
+    "age": 32,
+    "gender": "male",
+    "src": "nani"
+  }
+]

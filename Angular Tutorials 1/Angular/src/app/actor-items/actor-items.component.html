@@ -1,0 +1,13 @@
+<div class="media">
+  <img
+    class="mr-3 rounded align-self-center img-fluid"
+    style="width: 70px;"
+    [src]="'../assets/' + parentData.src + '.jpg'"
+    alt="imageOfPerson"
+  />
+  <div class="media-body align-self-center">
+    <h5 class="m-0">{{ parentData.name }}</h5>
+    {{ parentData.age }}
+    {{ parentData.gender }}
+  </div>
+</div>
