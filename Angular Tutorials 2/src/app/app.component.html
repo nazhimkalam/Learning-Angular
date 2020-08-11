@@ -1,0 +1,16 @@
+<p>This is my main app.component.html area</p>
+<p>I am using @Input deco to pass information from one component to another</p>
+<p>
+  In other words I am sending data from the parent component to the Child
+  component
+</p>
+<child (sendToParent) = "displayContentFromChild($event)" [actorInfo]="information"></child>
+<h2 *ngIf = "check">{{title}}</h2>
+
+<br>
+<br>
+ <!-- using ngIf directive -->
+<button [innerText] = "message" (click) = "clicked()"></button>
+
+
+<!-- using ngFor directive -->

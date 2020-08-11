@@ -1,0 +1,31 @@
+<h1>{{ actor() }}</h1>
+<h3 [textContent]="name"></h3>
+<br />
+<img
+  src="../../assets/vijay.jpg"
+  alt="vijay-photo"
+  (click)="show()"
+  height="250px"
+  width="200px"
+/><br />
+
+<p>
+  Below are the details i got from the parent component using the @Input deco
+</p>
+Age: {{ actorInfo.age }} <br />
+Gender: {{ actorInfo.gender }} <br />
+Status: {{ actorInfo.status }} <br />
+
+<br />
+<br />
+
+<button (click)="childClicked()">
+  click me to display data from the parent
+</button>
+<br>
+<br>
+<!-- using *ngFor -->
+Names:
+<ul>
+    <li *ngFor = "let name of myArray">{{name}}</li>
+</ul>
