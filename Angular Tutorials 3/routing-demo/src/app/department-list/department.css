@@ -1,0 +1,43 @@
+h3{
+    color: rgba(48, 48, 228, 0.753);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    text-decoration: underline;
+}
+
+.items{
+    border: 2px rgba(139, 34, 238, 0.836) solid;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left:30px ;
+}
+
+.badge{
+    border: 1px rgba(185, 21, 226, 0.76) solid;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left:10px ;
+    padding-right:10px ;
+}
+.item{
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    outline:none;
+}
+.item:hover{
+    background-color: rgba(209, 160, 255, 0.459);
+    border-radius: 50px;
+    transform: scale(1.1);;
+}
+
+.item.selected{
+    border-radius: 50px;
+    background-color: rgb(206, 229, 248);
+    color: white;
+}
